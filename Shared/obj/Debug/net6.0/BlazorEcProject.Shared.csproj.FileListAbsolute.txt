@@ -1,0 +1,11 @@
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\bin\Debug\net6.0\BlazorEcProject.Shared.deps.json
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\bin\Debug\net6.0\BlazorEcProject.Shared.dll
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\bin\Debug\net6.0\BlazorEcProject.Shared.pdb
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.AssemblyInfoInputs.cache
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.AssemblyInfo.cs
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.dll
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\refint\BlazorEcProject.Shared.dll
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\BlazorEcProject.Shared.pdb
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Shared\obj\Debug\net6.0\ref\BlazorEcProject.Shared.dll
