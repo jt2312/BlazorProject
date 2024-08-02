@@ -1,30 +1,17 @@
-﻿<h3>ProductList</h3>
-@using BlazorEcProject.Shared
+﻿using BlazorEcProject.Shared;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-<ul class="list-unstyled">
-	@foreach (var product in Products)
+namespace BlazorEcProject.Server.Controllers
+{
+	[Route("api/[controller]")]
+	[ApiController]
+	public class ProductController : ControllerBase
 	{
-		<li class="media my-3">
-			<div class="media-img-wrapper mr-2">
-				<a href="">
-					<img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
-				</a>
-			</div>
-			<div class="media-body">
-				<a href="#">
-					<h4 class="mb-0">@product.Title</h4>
-				</a>
-				<p>@product.Description</p>
-				<h5 class="price">
-					$@product.Price
-				</h5>
-			</div>
-		</li>
-	}
-</ul>
+		public ProductController() {}
 
-@code {
-	private static List<Product> Products = new List<Product>
+		//simula la DB
+		private static List<Product> Products = new List<Product>
 	{
 		new Product
 		{
@@ -53,4 +40,11 @@
 
 	};
 
+		[HttpGet]
+		public async Task<IActionResult> GetProduct()
+		{
+			//Ok()devuelve una respuesta HTTP 200
+			return Ok(Products);
+		}
+	}
 }

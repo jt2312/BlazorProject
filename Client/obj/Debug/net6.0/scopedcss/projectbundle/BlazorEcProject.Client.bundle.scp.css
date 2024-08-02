@@ -143,3 +143,51 @@ main[b-xjjurlu96i] {
         display: block;
     }
 }
+/* /Shared/ProductList.razor.rz.scp.css */
+
+.media-img[b-x8dxdk8nh6] {
+    max-height : 200px;
+    max-width : 200px;
+    border-radius : 6px;
+    margin-bottom : 10px;
+    transition : transform .2s;
+
+}
+
+.media-img:hover[b-x8dxdk8nh6]{
+    transform: scale(1.1);
+
+}
+
+.media[b-x8dxdk8nh6]{
+    display: flex;  
+    align-items: flex-start;
+}
+
+.media-body[b-x8dxdk8nh6]{
+    flex:1;
+}
+
+.media-img-wrapper[b-x8dxdk8nh6]{
+    width: 200px;
+    text-align : center;
+
+}
+ 
+.price[b-x8dxdk8nh6] {
+    color: green;
+
+}
+
+@media(max-width: 1023.98px){
+    .media[b-x8dxdk8nh6]{
+        flex-direction: column;
+
+    }
+    media[b-x8dxdk8nh6]{
+        width:100%;
+        height:auto;
+    }
+}
+
+
