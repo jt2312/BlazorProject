@@ -1,6 +1,6 @@
 global using BlazorEcProject.Shared;
 global using Microsoft.EntityFrameworkCore;
-using BlazorEcProject.Server.Data;
+global using BlazorEcProject.Server.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.z
 
 //sqlserver 
-builder.Services.AddDbContext<DataContext>(options =>
+builder.Services.AddDbContext<DataContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefConct")));
 
 

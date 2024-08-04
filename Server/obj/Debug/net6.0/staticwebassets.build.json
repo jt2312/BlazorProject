@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qgQdEo2cRL6ptzPOLzd5UVOIZD8biFpyJljQmEGy1Cc=",
+  "Hash": "w3SR8h85QWfSxnIZ4wI46gbgdK6/loDIbCripJnJEiY=",
   "Source": "BlazorEcProject.Server",
   "BasePath": "_content/BlazorEcProject.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "BlazorEcProject.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true",
+      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "RuntimeIdentifier;SelfContained;WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -7743,25 +7743,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorEcProject.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorEcProject.Client",
       "SourceType": "Project",
@@ -7874,6 +7855,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorEcProject.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\Julian\\source\\repos\\BlazorEcProject\\BlazorEcProject\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
