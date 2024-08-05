@@ -827,3 +827,4 @@ C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Client\obj\Debug\ne
 C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Client\obj\Debug\net6.0\ref\BlazorEcProject.Client.dll
 C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Client\obj\Debug\net6.0\BlazorEcProject.Client.sourcelink.json
 C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Client\obj\Debug\net6.0\scopedcss\Shared\ProductList.razor.rz.scp.css
+C:\Users\Julian\source\repos\BlazorEcProject\BlazorEcProject\Client\obj\Debug\net6.0\scopedcss\Pages\ProductDetails.razor.rz.scp.css
