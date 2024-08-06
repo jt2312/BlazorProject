@@ -1,4 +1,5 @@
 ﻿
+
 namespace BlazorEcProject.Client.Services.ProductService
 {
 	public class ProductService : IProductService
@@ -10,19 +11,27 @@ namespace BlazorEcProject.Client.Services.ProductService
 		}
 		public List<Product> Products { get; set; } = new List<Product>();
 
-		public async Task<ServiceResponse<Product>> GetProductById(int productId)
+        public event Action ProductsChange;
+
+        public async Task<ServiceResponse<Product>> GetProductById(int productId)
 		{
 			var result = await _http.GetFromJsonAsync<ServiceResponse<Product>>($"api/product/{productId}");
 			return result;
 		}
 
-		public async Task GetProducts()
+		public async Task GetProducts(string? categoryUrl = null)
 		{
-			var result = await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/Product");
+			var result = categoryUrl == null ?
+			await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/Product"):
+            await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/Product/category/{categoryUrl}");
 
-			if (result != null && result.Data != null)
-				Products = result.Data;
-			
-		}
-	}
+            if (result != null && result.Data != null)
+				Products = result.Data;	
+
+
+			ProductsChange.Invoke();
+
+        }
+
+    }
 }

@@ -1,7 +1,7 @@
 ﻿@* Inyecto para usar la api *@
 
 @inject IProductService productService
-
+@implements IDisposable
 
 @if (productService.Products == null ||  productService.Products.Count == 0)
 {
@@ -37,9 +37,13 @@ else
 @code {
 
 	//OnInitializedAsync ciclo de vida de blazor. se usa para realizar tareas de inicialización que requieren operaciones asincrónicas.
-	protected override async Task OnInitializedAsync()
+	protected override void OnInitialized()
 	{
-		await productService.GetProducts();
+		productService.ProductsChange += StateHasChanged;
 	}
+	public void Dispose()
+	{
+		productService.ProductsChange -= StateHasChanged;
 
+	}
 }
