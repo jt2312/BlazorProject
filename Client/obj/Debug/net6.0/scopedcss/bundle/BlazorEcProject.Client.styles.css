@@ -13,14 +13,20 @@
 }
 
 @media (max-width: 1023.98px) {
+    .media[b-sdmfe1is72]{
+        flex-direction: column;
+    }
+
+
     .media-img[b-sdmfe1is72] {
         max-width: 300px;
     }
-}
 
-.media-img-wrapper[b-sdmfe1is72] {
-    width: 100%;
-    height: auto;
+
+    .media-img-wrapper[b-sdmfe1is72] {
+        width: 100%;
+        height: auto;
+    }
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-xjjurlu96i] {
@@ -183,14 +189,7 @@ main[b-xjjurlu96i] {
 
 }
 
-.media[b-x8dxdk8nh6]{
-    display: flex;  
-    align-items: flex-start;
-}
 
-.media-body[b-x8dxdk8nh6]{
-    flex:1;
-}
 
 .media-img-wrapper[b-x8dxdk8nh6]{
     width: 200px;

@@ -12,12 +12,18 @@
 }
 
 @media (max-width: 1023.98px) {
+    .media[b-sdmfe1is72]{
+        flex-direction: column;
+    }
+
+
     .media-img[b-sdmfe1is72] {
         max-width: 300px;
     }
-}
 
-.media-img-wrapper[b-sdmfe1is72] {
-    width: 100%;
-    height: auto;
+
+    .media-img-wrapper[b-sdmfe1is72] {
+        width: 100%;
+        height: auto;
+    }
 }

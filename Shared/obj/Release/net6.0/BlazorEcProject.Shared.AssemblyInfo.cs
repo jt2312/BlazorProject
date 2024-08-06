@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorEcProject.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bbd7b317e2d200b4dabc6295e7e4b809ec3c29c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+321092c77f25b8017d132840423ba8b8d6970292")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorEcProject.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorEcProject.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

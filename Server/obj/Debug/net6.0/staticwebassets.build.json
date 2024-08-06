@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8L8NXgFv1SophzAnnUrdcFwySIQdRSTLmWhUdqyswsM=",
+  "Hash": "ZthE1OSD7DDdcG0K/+XyTO7Ean2/M8cxmFkSLRm28NY=",
   "Source": "BlazorEcProject.Server",
   "BasePath": "_content/BlazorEcProject.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "BlazorEcProject.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "RuntimeIdentifier;SelfContained;WebPublishProfileFile;TargetFramework"
     }
   ],
